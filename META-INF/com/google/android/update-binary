@@ -578,6 +578,6 @@ if [ "$(file_getprop anykernel.sh do.cleanup)" == 1 ]; then
 fi;
 
 ui_print " "
-ui_print "Done, Please Rebbot System!"
+ui_print "Done, Please Reboot System!"
 export PATH="$OLD_PATH";
 unset OLD_PATH OUTFD ZIPFILE;
